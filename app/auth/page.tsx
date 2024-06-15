@@ -31,7 +31,7 @@ const AuthPage = () => {
           </div>
           <p className="text-sm text-neutral-normal ">بارکد یا QR code در مرکز توزیع را اسکن کنید</p>
         </div>
-        <div className="h-screen max-h-[calc(100vh-112px)] relative">
+        <div className="h-screen max-h-[calc(100dvh-112px)] relative">
           <Scanner onScan={(value) => setScanResult(value)} />
           {scanResult ? (
             <div>
