@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="fa" dir="rtl" className={`${defaultFontFamily.variable} font-display bg-neutral-white`}>
       <body className="m-0 p-0 flex justify-center bg-neutral-light">
-        <div className="w-full max-w-screen-sm bg-neutral-white h-screen">
+        <div className="w-full max-w-screen-sm bg-neutral-white h-dvh">
           <SessionProvider>
             <StoreProvider>{children}</StoreProvider>
           </SessionProvider>
