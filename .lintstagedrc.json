@@ -1,0 +1,4 @@
+{
+  "**/*.(ts|tsx|js|jsx)": ["eslint --cache", "prettier --check"],
+  "**/*.(html|md|json|yaml)": ["prettier --check"]
+}
