@@ -1,7 +1,7 @@
 import type { ConfigFile } from '@rtk-query/codegen-openapi';
 
 const config: ConfigFile = {
-  schemaFile: './spec.yml',
+  schemaFile: '',
   apiFile: './lib/store/baseFlexApi.ts',
   apiImport: 'baseFlexApi',
   outputFile: './lib/store/FlexApi.ts',
