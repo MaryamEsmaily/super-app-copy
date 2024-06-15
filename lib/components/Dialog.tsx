@@ -20,9 +20,8 @@ const Dialog = ({ isOpen, onClose, children }: FullScreenModalProps) => {
           w-full
           h-full
           max-w-screen-sm
-          md:-translate-x-1/2 md:translate-y-1/2
-          bottom-0
-          md:bottom-1/2 md:left-1/2
+          -translate-x-1/2 translate-y-1/2
+          bottom-1/2 left-1/2
           "
       >
         {children}
