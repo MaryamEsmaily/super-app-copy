@@ -9,7 +9,6 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm",
     "updateApi": "npx @rtk-query/codegen-openapi ./openapi-config.ts"
   },
   "dependencies": {
